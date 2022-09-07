@@ -1,0 +1,29 @@
+.intro {
+    margin-top: 35px;
+
+    &_text{
+       background: #f2f2f2;
+       display: inline-block;
+       width: 445px;
+       height: 357px;
+       position: relative;
+       bottom: 362px;
+       
+             
+    }
+
+    &_description {
+        font-family: 'Ibarra Real Nova';
+        font-weight: 700; 
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: -0.446429px;
+        color: #33323D;
+        padding-top: 56px;
+        padding-right: 55px;
+    }
+
+    &_link_img {
+     margin-top: 53px;
+    }
+}

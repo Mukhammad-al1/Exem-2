@@ -1,0 +1,47 @@
+.footer{
+    margin-top: 150px;
+    background: #33323D;
+    padding-top: 33px;
+    padding-bottom: 33px;
+
+    &_nav{
+        display: flex;
+        
+        align-items: center; 
+    }
+
+    &_list {
+        display: flex;
+        list-style-type: none;
+        
+    }
+
+    &_list_item {
+        margin-left: 42px;
+    }
+
+    &_link{
+        margin-left: 43px;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    &_inc{
+        margin-left: 440px;
+    }
+
+    &_svg{
+        margin-left: 15px;
+    }
+
+    &_link:hover{
+        color: #5FB4A2;
+    }
+}
